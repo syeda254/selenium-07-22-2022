@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.build.qa.build.selenium.tests.FergTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 174.571 sec <<< FAILURE! - in com.build.qa.build.selenium.tests.FergTest
+addProductToCartFromCategoryDrop(com.build.qa.build.selenium.tests.FergTest)  Time elapsed: 7.844 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: MicrosoftEdge=103.0.1264.62)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-OK7FNR0', ip: '192.168.1.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{networkConnectionEnabled=false, msedge={msedgedriverVersion=103.0.1264.62 (e5d152f334ae94abb94393154b2e6dbc8961160f), userDataDir=C:\Users\baqar\AppData\Local\Temp\scoped_dir7312_1502887206}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=103.0.1264.62, browserName=msedge, javascriptEnabled=true, platformName=windows, ms:edgeOptions={debuggerAddress=localhost:64202}, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: bfe2c357162c8e2a803e02613ad0ab39
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)
+	at com.build.qa.build.selenium.pageobjects.homepage.CategoryPage.geturl(CategoryPage.java:86)
+	at com.build.qa.build.selenium.tests.FergTest.addProductToCartFromCategoryDrop(FergTest.java:95)
+
